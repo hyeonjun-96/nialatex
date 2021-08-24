@@ -1,0 +1,43 @@
+from setuptools import setup, find_packages
+
+setup(
+    name             = 'niaimage2latex',
+    version          = '1.0',
+    description      = 'Extract equations from images',
+    author           = 'Hyeon Jun Choi',
+    author_email     = 'guswns2936@hanmail.net',
+    url              = '',
+    download_url     = '',
+    install_requires = ['Keras-Preprocessing>=1.1.2', 'Markdown>=3.3.4', 'Pillow>=8.2.0', 'PyQt5>=5.15.4', 'PyQt5-Qt5>=5.15.2', 'PyQt5-sip>=12.9.0',
+                        'PyQtWebEngine>=5.15.4', 'PyQtWebEngine-Qt5>=5.15.2', 'PyWavelets>=1.1.1', 'PyYAML>=5.4.1', 'Pygments>=2.9.0', 'Shapely>=1.7.1',
+                        'Werkzeug>=2.0.1', 'absl-py>=0.13.0', 'albumentations==0.5.2', 'astunparse>=1.6.3', 'bleach>=3.3.1', 'cachetools>=4.2.2',
+                        'certifi>=2020.12.5', 'chardet>=4.0.0', 'click>=8.0.1', 'colorama>=0.4.4', 'cycler>=0.10.0', 'decorator>=4.4.2', 'docutils>=0.17.1',
+                        'einops>=0.3.0', 'entmax>=1.0', 'filelock>=3.0.12', 'flatbuffers>=1.12', 'gast>=0.4.0', 'google-auth>=1.32.1',
+                        'google-auth-oauthlib>=0.4.4', 'google-pasta>=0.2.0', 'grpcio>=1.38.1', 'h5py>=3.1.0', 'huggingface-hub>=0.0.8',
+                        'idna>=2.10', 'imageio>=2.9.0', 'imagesize>=1.2.0', 'imgaug>=0.4.0', 'importlib-metadata>=4.6.3', 'joblib>=1.0.1',
+                        'keras-nightly', 'keyring>=23.0.1', 'kiwisolver>=1.3.1', 'latex2mathml>=3.61.0', 'libclang>=11.1.0', 'matplotlib>=3.4.2', 'munch>=2.5.0',
+                        'natsort>=7.1.1', 'networkx>=2.5.1', 'numpy>=1.19.5', 'oauthlib>=3.1.1', 'opencv-python>=4.5.2.52', 'opencv-python-headless>=4.5.2.52',
+                        'opt-einsum>=3.3.0', 'packaging>=20.9', 'pandas>=1.2.4', 'pip>=21.2.2', 'pkginfo>=1.7.1', 'protobuf>=3.17.3', 'pyasn1>=0.4.8',
+                        'pyasn1-modules>=0.2.8', 'pynput>=1.7.3', 'pyparsing>=2.4.7', 'python-Levenshtein>=0.12.2', 'python-dateutil>=2.8.1', 'pytz>=2021.1',
+                        'pywin32-ctypes>=0.2.0', 'readme-renderer>=29.0', 'regex>=2021.4.4', 'requests>=2.25.1', 'requests-oauthlib>=1.3.0',
+                        'requests-toolbelt>=0.9.1', 'rfc3986>=1.5.0', 'rsa>=4.7.2', 'sacremoses>=0.0.45', 'scikit-image>=0.18.1', 'scipy>=1.6.3',
+                        'screeninfo>=0.6.7', 'setuptools>=47.1.0', 'six>=1.15.0', 'termcolor>=1.1.0', 'tifffile>=2021.4.8', 'timm==0.4.5', 'tokenizers>=0.10.3',
+                        'torch==1.9.0', 'torchtext==0.10.0', 'torchvision==0.10.0', 'tqdm>=4.61.0', 'transformers>=4.6.1', 'twine>=3.4.2', 'typing-extensions>=3.7.4.3',
+                        'urllib3>=1.26.5', 'webencodings>=0.5.1', 'wheel>=0.36.2', 'wrapt>=1.12.1', 'x-transformers>=0.12.1', 'zipp>=3.5.0'],
+    packages         = find_packages(),
+    keywords         = ['latex', 'mathml', 'ocr'],
+    python_requires  = '>=3',
+    include_package_data=True,
+    package_data     = {},
+    zip_safe=False,
+    classifiers      = [
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8'
+    ]
+)
